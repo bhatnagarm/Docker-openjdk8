@@ -5,5 +5,5 @@ USER root
 RUN apk update
 RUN apk fetch openjdk8
 RUN apk add --update openjdk8 && \
-rm -rf /var/cache/apk/*
+RUN rm -rf /var/cache/apk/*
 
